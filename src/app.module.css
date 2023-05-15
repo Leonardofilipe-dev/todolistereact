@@ -1,0 +1,9 @@
+.main{
+    min-height: 46vh;
+    text-align: center;
+    padding: 2em;
+}
+
+.main h3{
+    margin-bottom: 0.8em;
+}
