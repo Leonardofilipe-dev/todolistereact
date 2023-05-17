@@ -24,7 +24,7 @@ function App() {
     </div>
     <div className={style.input_container}>
       <h2>Suas tarefas</h2>
-      <p><TaskList/></p>
+      <p><TaskList taskList={taskList} /></p>
     </div>
     </main>
     <Footer/>
