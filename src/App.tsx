@@ -6,8 +6,11 @@ import Footer from './components/footer/footer'
 import style from './app.module.css'
 import TaskForm from './components/form/taskForm'
 import TaskList from './components/list/taskList'
+import { ITask } from './interface/Task'
 
 function App() {
+
+  const [taskList, setTaskList] = useState<ITask[]>([])
   const [] = useState(0)
 
   return (
@@ -17,7 +20,7 @@ function App() {
     <main className={style.main}>
     <div className={style.input_container}>
       <h2>O que você vai fazer?</h2>
-      <TaskForm btnText='Create task'/>
+      <TaskForm btnText='Create task' taskList={taskList} setTaskList={setTaskList}/>
     </div>
     <div className={style.input_container}>
       <h2>Suas tarefas</h2>
