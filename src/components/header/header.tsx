@@ -3,7 +3,7 @@ import styles from "./header.module.css"
 const Header = () => {
   return (
     <header className={styles.header}>
-    <h1>React + TS Todo</h1>
+    <h1>To do list</h1>
 
   </header>
 
