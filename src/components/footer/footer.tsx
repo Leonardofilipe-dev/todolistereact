@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className={styles.footer}>
         <p>
           <span>
-          React +TS Todo
+          To do
          </span> @2023
          </p>
       </footer>
