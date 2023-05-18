@@ -1,4 +1,4 @@
-import React, {useState, useEffect, ChangeEvent, FormEvent, SetStateAction} from "react";
+import React, {useState, useEffect, ChangeEvent, FormEvent} from "react";
 import styles from "./taskForm.module.css"
 import { ITask } from '../../interface/Task'
 
