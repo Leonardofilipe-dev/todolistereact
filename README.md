@@ -16,6 +16,10 @@
 ![image](https://github.com/Leonardofilipe-dev/todolistereact/assets/114321505/1d2f423a-e829-4278-b382-36658359ca64)
 ![image](https://github.com/Leonardofilipe-dev/todolistereact/assets/114321505/d3137637-65c9-4da0-b0e9-6ac80610b364)
 
+<h2>steps for installing project dependencies</h2>
+
+<p>type it Npm install for installing project dependencies!</p>
+
 
 
 
